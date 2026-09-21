@@ -27,11 +27,12 @@ html {
 a {
     text-decoration: none;
 }
-
+body {
+    background: #E1D4C9;
+}
 /*=============Block Header=============*/
 
 #Header {
-    background: #E1D4C9;
     display: flex;
     justify-content: center;
     padding: 20px 40px;
@@ -99,7 +100,6 @@ a {
 #hero {
     display: flex;
     justify-content: center;
-    background: #E1D4C9;
 }
 .hero-container {
     display: flex;
@@ -152,4 +152,22 @@ h1 {
     font-weight: 600;
     font-size: clamp(10px, 1.2vw, 16px);
     color: #403F3D;
+}
+
+/*=============Block Favorite coffee=============*/
+
+#favorite-coffee {
+    margin-top: 100px;
+}
+.favorite-title {
+    font-family: Inter-Semi Bold;
+    font-weight: 600;
+    font-size: clamp(28px, 4.5vw, 60px);
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #403F3D;
+}
+.span-favorite {
+    color: #B0907A;
 }
