@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+@font-face {
+    font-family: Inter-Italic;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-Italic.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Semi Bold;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*=============Block Header=============*/
+
+#Header {
+    background: #E1D4C9;
+    display: flex;
+    justify-content: center;
+}
+.header-menu {
+    width: 1440px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    list-style-type: none;
+    font-family: Inter-Semi Bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+.header-actions {
+    display: flex;
+}
+.header-coffee-menu {
+    display: flex;
+    align-items: center;
+    font-family: Inter-Semi Bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+.header-theme-switch {
+    display: flex;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 100px;
+    padding: 4px;
+    border: 1px solid #C1B6AD;
+}
+.header-backgraund-sun {
+    border-radius: 100px;
+    background-color: #B0907A;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-backgraund-moon {
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
