@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-height: 100%;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+@font-face {
+    font-family: Inter-Italic;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-Italic.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Semi Bold;
+    src: url(/rsschool-landing-page/fonts/Inter_18pt-SemiBold.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background: #E1D4C9;
+}
+/*=============Block Header=============*/
+
+#Header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+.header-menu {
+    width: 1360px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    list-style-type: none;
+    color: #403F3D;
+    font-family: Inter-Semi Bold;
+    font-size: clamp(10px, 1.2vw, 16px);
+    line-height: 150%;
+    gap: 40px;
+}
+.burger {
+    display: none;
+}
+.header-actions {
+    display: flex;
+    gap: 24px;
+}
+.header-coffee-menu {
+    display: flex;
+    align-items: center;
+    font-family: Inter-Semi Bold;
+    font-size: clamp(10px, 1.2vw, 16px);
+    color: #403F3D;
+    line-height: 150%;
+    gap: 8px;
+}
+.header-theme-switch {
+    display: flex;
+    gap: 8px;
+    opacity: 1;
+    border-radius: 100px;
+    padding: 4px;
+    border: 1px solid #C1B6AD;
+}
+.header-backgraund-sun {
+    border-radius: 100px;
+    background-color: #B0907A;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-backgraund-moon {
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=============Block Hero=============*/
+
+#hero {
+    display: flex;
+    justify-content: center;
+}
+.hero-container {
+    display: flex;
+    max-width: 1360px;
+    min-height: 644px;
+
+}
+.hero-title {
+    position: absolute;
+    max-width: 530px;
+    min-height: 444px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px 0 0 100px;
+}
+.span-Enjoy {
+    color: #B0907A;
+    font-family: Inter-Italic;
+}
+h1 {
+    font-family: Inter-Semi Bold;
+    font-weight: 600;
+    font-size: clamp(30px, 4.5vw, 72px);
+    letter-spacing: 4.7px;
+    line-height: 118%;
+    color: #E1D4C9;
+}
+.text-hero {
+    font-family: Inter-Regular;
+    font-weight: 400;
+    font-size: clamp(10px, 1.2vw, 16px);
+    color: #E1D4C9;
+    letter-spacing: 0.1px;
+    line-height: 150%;
+}
+.hero-img {
+    border-radius: 40px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.button-menu {
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    height: 64px;
+    background-color: #E1D4C9;
+    font-family: Inter-Semi Bold;
+    font-weight: 600;
+    font-size: clamp(10px, 1.2vw, 16px);
+    color: #403F3D;
+}
+
+/*=============Block Favorite coffee=============*/
+
+#favorite-coffee {
+    margin-top: 100px;
+}
+.favorite-title {
+    font-family: Inter-Semi Bold;
+    font-weight: 600;
+    font-size: clamp(28px, 4.5vw, 60px);
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #403F3D;
+}
+.span-favorite {
+    color: #B0907A;
+}
